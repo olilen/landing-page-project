@@ -190,8 +190,8 @@ section:nth-of-type(3){
 /**********SECTION FOUR**********/
 .section-four{
   width: 60%;
-  margin: 4rem auto;
-  height: 18vh;
+  margin: 8rem auto;
+  height: 22vh;
   background-color: #0A66C2;
   border-radius: 12px;
   display: flex;
@@ -238,6 +238,23 @@ section:nth-of-type(3){
   background-color: #16437E;
   color: #ffffff;
 }
+
+/**********FOOTER**********/
+footer{
+  background-color: #1f2937;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+text-align: center;
+color:#e5e7eb;
+font-style: italic;
+}
+
+
 
 /**********MEDIA QUERIES**********/
 
