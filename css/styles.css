@@ -118,8 +118,32 @@ width:40%;
 /**********SECOND SECTION**********/
 
 .section-two{
-  width: 70%;
+  width: 56%;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom:5rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.card-pic{
+  border: 5px solid #0A66C2;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 10%;
+  margin: 0 1.6rem;
+}
+
+.card p{
+  width: 14rem;
 }
 
 h2{
@@ -127,7 +151,8 @@ h2{
   font-weight: 800;
   font-size: 2.6rem;
   color: #1f2937;
-  padding: 1rem;
+  padding: 2rem 0;
+  display:block;
 }
 
 
