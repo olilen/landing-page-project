@@ -63,12 +63,13 @@ height: 100%;  /*Change here if there's a problem with the next div bg color*/
 width: 70%;
 padding: 4rem 0;
 display: flex;
+flex-wrap:wrap-reverse;
 justify-content: space-around;
 align-items: center;
 }
 
 .hero-text-container{
-padding-right: 4rem;
+width:40%;
 }
 
 .section-one h1{
@@ -107,16 +108,29 @@ padding-right: 4rem;
 }
 
 .hero-pic{
-  height: 54vh;
-  border-radius: 20px 200px;
+  /* max-height: 54vh; */
+  max-width: 56%;
+  min-width: 500px;
+  border-radius: 4% 40%;
 }
 /**********MEDIA QUERIES**********/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   nav{
     flex-direction: column;
   }
   .img-logo{
     margin: 0 auto 10px;
+  }
+  
+  .hero-pic{
+    min-width: 98vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero-text-container{
+    width: 98vw;
+    text-align: center;
+    padding-top: 20px;
   }
 }
