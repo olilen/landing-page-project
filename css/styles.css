@@ -266,6 +266,9 @@ section:nth-of-type(3){
   .section-three p:first-child{
     font-size: 2em;
   }
+  .section-four{
+  min-height: 40vh;
+  }
 }
 @media screen and (max-width: 1400px) {
   .hero-text-container{
@@ -273,4 +276,11 @@ section:nth-of-type(3){
     text-align: center;
     padding-top: 20px;
   }
+
+  .section-four{
+    height: 30vh;
+    min-width: 60vw;
+    padding: 20px;
+  }
+
 }
